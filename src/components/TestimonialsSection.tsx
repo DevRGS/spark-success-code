@@ -18,15 +18,15 @@ const testimonials = [
 ];
 
 const TestimonialsSection = () => (
-  <section className="py-24">
-    <div className="container">
-      <h2 className="mb-16 text-center text-3xl text-foreground md:text-5xl">Resultados Reales</h2>
-      <div className="grid gap-6 md:grid-cols-2">
+  <section className="py-16 sm:py-24">
+    <div className="container px-4 sm:px-6">
+      <h2 className="mb-10 text-center text-2xl text-foreground sm:mb-16 sm:text-3xl md:text-5xl">Resultados Reales</h2>
+      <div className="grid gap-4 sm:gap-6 md:grid-cols-2">
         {testimonials.map((t) => (
-          <div key={t.name} className="rounded-3xl border border-border bg-card p-8">
-            <div className="mb-3 text-accent">★★★★★</div>
-            <p className="mb-4 text-foreground">"{t.text}"</p>
-            <strong className="text-primary">{t.name}</strong>
+          <div key={t.name} className="rounded-2xl border border-border bg-card p-6 sm:rounded-3xl sm:p-8">
+            <div className="mb-2 text-sm text-accent sm:mb-3">★★★★★</div>
+            <p className="mb-3 text-sm text-foreground sm:mb-4 sm:text-base">"{t.text}"</p>
+            <strong className="text-sm text-primary">{t.name}</strong>
           </div>
         ))}
       </div>
