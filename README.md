@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# Domina tu Mente | Vence la Procrastinación
 
-TODO: Document your project here
+Projeto de landing page para o método anti-procrastinação.
