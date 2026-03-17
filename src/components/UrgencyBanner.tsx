@@ -16,8 +16,8 @@ const UrgencyBanner = () => {
   return (
     <div className="sticky top-0 z-50 border-b border-border bg-secondary/80 backdrop-blur-xl">
       <div className="container py-3 text-center">
-        <span className="text-sm font-semibold uppercase tracking-widest text-accent">
-          OFERTA BLACK NOVEMBER FINALIZA EN:{" "}
+        <span className="text-xs font-semibold uppercase tracking-widest text-accent sm:text-sm">
+          🔥 OFERTA ESPECIAL FINALIZA EN:{" "}
           <span className="font-extrabold tabular-nums">
             {minutes}:{seconds}
           </span>
